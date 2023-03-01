@@ -1,0 +1,8 @@
+# Welcome to Sonic Pi
+
+num = 21
+107.times do
+  play(num)
+  sleep 0.25
+  num = num + 1
+end
