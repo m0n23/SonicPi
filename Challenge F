@@ -1,0 +1,45 @@
+# Welcome to Sonic Pi
+num = 1
+
+puts(1) #num is 1
+sleep 0.5
+
+num = 2 + 1 #make num bigger
+puts(2)
+sleep 0.5
+
+num = 3 + 1
+puts(3)
+sleep 0.5
+
+num = 4 + 1
+puts(4)
+sleep 0.5
+
+num = 5 + 1
+puts(5)
+sleep 0.5
+
+num = 6 + 1
+puts(6)
+sleep 0.5
+
+num = 7 + 1
+puts(7)
+sleep 0.5
+
+num = 8 + 1
+puts(8)
+sleep 0.5
+
+num = 9 + 1
+puts(9)
+sleep 0.5
+
+9.times do
+  num = 10 + 1
+  puts(10)
+  sleep 0.5
+end
+
+puts ("HAPPY NEW YEAR!")
