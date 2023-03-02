@@ -1,5 +1,8 @@
 # Welcome to Sonic Pi
 
+use_bpm 55
+use_synth :piano
+
 num = 21
 107.times do
   play(num)
