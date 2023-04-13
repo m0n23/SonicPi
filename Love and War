@@ -1,0 +1,45 @@
+# Welcome to Sonic Pi
+use_bpm 109
+use_synth :piano
+define :Love do |f1, f2, f3|
+  play f1
+  sleep 0.05
+  play f2
+  sleep 0.05
+  play f3
+  sleep 0.05
+end
+define :War do |n1, n2, n3|
+  play n1
+  sleep 0.5
+  play n2
+  sleep 0.5
+  play n3
+  sleep 0.4
+end
+
+live_loop :Kodak do
+  4.times do
+    Love :f4, :cs4, :bs4
+    
+    4.times do
+      War :cs6, :a5, :fs5
+    end
+    Love :b4, :fs4, :ds4
+    2.times do
+      War :d6, :b5, :g5
+    end
+    2.times do
+      War :e6, :bs5, :as5
+    end
+  end
+  stop
+end
+
+sleep 46
+k = "C:/Users/Monica Hausherr/Downloads/Love & War.wav"
+sample k
+#sleep 48
+
+#f4 cs4 bs4
+#cs6 a5 fs5
