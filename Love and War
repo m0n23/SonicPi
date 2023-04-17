@@ -36,10 +36,13 @@ live_loop :Kodak do
   stop
 end
 
+
 sleep 46
 k = "C:/Users/Monica Hausherr/Downloads/Love & War.wav"
 sample k
 #sleep 48
-
+sleep 67
+j = "C:/Users/Monica Hausherr/Downloads/Batman - The Dark Knight ｜ The Joker Compilation (All Scenes).wav"
+sample j
 #f4 cs4 bs4
 #cs6 a5 fs5
