@@ -38,11 +38,12 @@ end
 
 
 sleep 46
-k = "C:/Users/Monica Hausherr/Downloads/Love & War.wav"
+k = "C:/Users/Monica Hausherr/Downloads/LW.wav"
+
 sample k
 #sleep 48
-sleep 67
-j = "C:/Users/Monica Hausherr/Downloads/Batman - The Dark Knight ｜ The Joker Compilation (All Scenes).wav"
+sleep 48
+j = "C:/Users/Monica Hausherr/Downloads/JJ.wav"
 sample j
 #f4 cs4 bs4
 #cs6 a5 fs5
